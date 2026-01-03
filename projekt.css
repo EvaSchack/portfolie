@@ -1,0 +1,28 @@
+/* Projekt side */
+#projects {
+  padding-top: 2srem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  background-color: var(--pink);
+}
+
+.picture-projects1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  object-fit: cover; /* bevarer proportioner og fylder cellen */
+  margin: 2rem;
+}
+
+.picture-projects2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  object-fit: cover; /* bevarer proportioner og fylder cellen */
+  margin: 2rem;
+  padding-bottom: 6rem;
+}
+
+h2.projects {
+  padding-top: 6rem;
+}

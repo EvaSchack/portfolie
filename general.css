@@ -21,27 +21,8 @@ img {
   height: auto;
   display: block;
 }
-/* Projekt side */
-.projects {
-  padding: 2rem;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  background-color: var(--pink);
-}
-
-.picture-projects1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  object-fit: cover; /* bevarer proportioner og fylder cellen */
-  margin-bottom: 2rem;
-}
-
-.picture-projects2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  object-fit: cover; /* bevarer proportioner og fylder cellen */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Typografi */
@@ -57,6 +38,15 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: bold;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: semi-bold;
+  font-size: 60px;
+  color: var(--dark);
+  margin-left: 2rem;
 }
 
 /* Hero section */

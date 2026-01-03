@@ -21,6 +21,11 @@ img {
   height: auto;
   display: block;
 }
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }

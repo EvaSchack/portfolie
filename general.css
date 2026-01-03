@@ -68,3 +68,26 @@ h2 {
   color: var(--dark);
   justify-content: center;
 }
+
+@media (max-width: 800px) {
+  /* Forside */
+  .hero {
+    margin-left: 0;
+    border-bottom-left-radius: 0;
+    font-size: 2rem;
+  }
+
+  #projects {
+    grid-template-columns: 1fr;
+    order: 1;
+  }
+  .picture-projects1 {
+    grid-template-columns: 1fr;
+  }
+  .text-about-me {
+    grid-template-columns: 1fr;
+    order: 2;
+    object-fit: cover;
+    justify-self: center;
+  }
+}

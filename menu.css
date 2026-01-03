@@ -5,9 +5,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #f7d57d;
+  background: var(--orange);
   z-index: 100;
-  font-family: "Roboto", sans-serif;
 }
 
 .menu {
@@ -28,14 +27,14 @@ header {
 .menu a {
   display: block;
   padding: 10px;
-  color: #333333;
+  color: var(--dark);
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: #dc717a;
+  color: var(--pink);
 }
 
 .burger {

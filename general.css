@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Farver */
+:root {
+  --pink: #eab0c8;
+  --orange: #d76a4d;
+  --dark: #6e1e3b;
+  --yellow: #f9dd8a;
+}
+
+body {
+  background-color: var(--pink);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Projekt side */
+.projects {
+  padding: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  background-color: var(--pink);
+}
+
+.picture-projects1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  object-fit: cover; /* bevarer proportioner og fylder cellen */
+  margin-bottom: 2rem;
+}
+
+.picture-projects2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  object-fit: cover; /* bevarer proportioner og fylder cellen */
+}
+
+/* Typografi */
+
+header {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  color: var(--dark);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: var(--orange);
+  margin-left: 35%;
+  border-bottom-left-radius: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  letter-spacing: 8px;
+  color: var(--dark);
+  justify-content: center;
+}

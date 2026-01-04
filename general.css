@@ -125,3 +125,36 @@ a {
     background-position: 50% 0%;
   }
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--orange);
+  padding: 2rem;
+
+  position: sticky;
+  min-height: 25vh;
+}
+.footer h2 {
+  color: var(--dark);
+  font-size: 50px;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.footer .logo img {
+  width: 150px;
+  height: auto;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.pinkE {
+  color: var(--pink);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--dark);
+}

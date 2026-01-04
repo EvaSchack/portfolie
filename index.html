@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="om-mig.css" />
     <link rel="stylesheet" href="projekt.css" />
-    <script src="menu.js"></script>
+    <link rel="stylesheet" href="feardigheder.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="gradient">
     <header>
-      <div class="logo">
-        <a href="/">
-          <img src="billeder.projekter/portfolio-logo.svg" alt="Logo" />
-        </a>
+      <div id="logo">
+        <a href="index.html"> eva schack </a>
       </div>
       <nav>
         <ul class="menu">
           <li><a href="#projects">MINE PROJEKTER</a></li>
           <li><a href="#about-me">OM MIG</a></li>
-          <li><a href="index.html">MINE FÆRDIGHEDER</a></li>
+          <!-- <li><a href="#skills">MINE FÆRDIGHEDER</a></li> -->
         </ul>
         <button class="burger">
           <span class="line"></span>
@@ -35,6 +37,7 @@
         </button>
       </nav>
     </header>
+
     <main class="hero">
       <h1>PORTFOLIE</h1>
     </main>
@@ -42,14 +45,46 @@
     <section id="projects">
       <div>
         <h2>MINE PROJEKTER</h2>
-        <div class="picture-projects1">
-          <a href="#"><img src="billeder.projekter/mobilesite.webp" alt="mobilesite" /></a>
-          <a href="#"><img src="billeder.projekter/emnesite-is.webp" alt="emnesite-is" /></a>
+        <div class="container">
+          <div class="card">
+            <a href="web.html"
+              ><img src="billeder.projekter/mobilesite.webp" alt="mobilesite" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE WEB</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="ux-ui.html"
+              ><img src="billeder.projekter/emnesite-is.webp" alt="emnesite-is" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE UX/UI</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <div class="picture-projects2">
-          <a href="#"><img src="billeder.projekter/emergency.webp" alt="emergency" /></a>
-          <a href="#"><img src="billeder.projekter/replay.webp" alt="replay" /></a>
+        <div class="container">
+          <div class="card">
+            <a href="brugergreanse.html"
+              ><img src="billeder.projekter/emergency.webp" alt="emergency" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE BRUGERGRÆNSEFLADEUDVIKLING</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="indhold.html"
+              ><img src="billeder.projekter/replay.webp" alt="replay" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE INDHOLD</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -70,9 +105,19 @@
             <br />
             Jeg er opvokset i den lille by Tølløse, men for fire år siden flyttede jeg til København, hvor jeg planlægger at slå mig ned i mange år fremover. Tak for at vise interesse og kig gerne rundt på siden!
           </p>
-          <img class="eva" src="billeder.projekter/eva.webp" alt="mig" />
+          <img class="image-about-me" src="billeder.projekter/eva.webp" alt="mig" />
         </div>
       </div>
     </section>
+
+    <!-- <section id="skills">
+      <div>
+        <h2>MINE FÆRDIGHEDER</h2>
+      </div>
+    </section> -->
+
+    <script src="menu.js"></script>
+
+    <footer></footer>
   </body>
 </html>

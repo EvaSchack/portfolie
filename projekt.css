@@ -1,17 +1,14 @@
 /* Projekt side */
 #projects {
-  padding-top: 2srem;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
   background-color: var(--pink);
 }
 
-.picture-projects1 {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   object-fit: cover; /* bevarer proportioner og fylder cellen */
-  margin: 2rem;
+  margin-bottom: 2rem;
 }
 
 .picture-projects2 {
@@ -19,10 +16,62 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   object-fit: cover; /* bevarer proportioner og fylder cellen */
-  margin: 2rem;
-  padding-bottom: 6rem;
 }
 
 h2.projects {
   padding-top: 6rem;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: none;
+  transition: transform 0.2s ease;
+  padding: 2rem;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  /* background-color: #f0bbd1; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  /* mix-blend-mode: multiply; */
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text-container span {
+  font-size: 1rem;
+  font-family: playfair display sc, serif;
+  color: var(--dark);
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
 }

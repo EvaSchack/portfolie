@@ -12,11 +12,11 @@ header {
 #logo a {
   text-decoration: none;
   font-family: "Playfair Display SC", serif;
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 500;
   color: var(--dark);
-  font-style: italic;
-  letter-spacing: 0.08em;
+  /* font-style: italic; */
+  letter-spacing: 0.02em;
 }
 
 #logo a:hover {
@@ -44,6 +44,8 @@ header {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  letter-spacing: 0.02em;
+  font-size: 20px;
 }
 
 .menu a:hover {

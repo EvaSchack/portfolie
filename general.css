@@ -35,8 +35,8 @@ html {
 /* Typografi */
 
 header {
-  font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-family: playfair display sc, serif;
   font-weight: 500;
   font-style: medium;
   color: white;
@@ -61,10 +61,11 @@ h2 {
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: playfair display sc, serif;
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--dark);
+  margin-bottom: 1rem;
 }
 p {
   font-family: "Poppins", sans-serif;
@@ -153,8 +154,13 @@ a {
 .pinkE {
   color: var(--pink);
 }
+.orangeE {
+  color: var(--orange);
+}
 
 .footer a {
   text-decoration: none;
   color: var(--dark);
+  font-family: playfair display sc, serif;
+  letter-spacing: 0.02em;
 }

@@ -59,11 +59,13 @@ h2.projects {
   align-items: center;
 }
 .card-text-container span {
-  font-size: 1rem;
+  font-size: 18px;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
   font-family: playfair display sc, serif;
   color: var(--dark);
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 500;
+  /* font-style: italic; */
   letter-spacing: 0.02em;
 }
 

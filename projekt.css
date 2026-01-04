@@ -1,6 +1,6 @@
 /* Projekt side */
 #projects {
-  background-color: #f9ceda;
+  background-color: var(--pink);
 }
 
 .container {

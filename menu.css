@@ -5,10 +5,23 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: var(--orange);
+  background: none;
   z-index: 100;
 }
 
+#logo a {
+  text-decoration: none;
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--dark);
+  /* font-style: italic; */
+  letter-spacing: 0.02em;
+}
+
+#logo a:hover {
+  color: #b56280;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -31,10 +44,12 @@ header {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  letter-spacing: 0.02em;
+  font-size: 20px;
 }
 
 .menu a:hover {
-  color: var(--pink);
+  color: #b56280;
 }
 
 .burger {
@@ -47,7 +62,7 @@ header {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #333333;
+  background-color: #6e1e3b;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }

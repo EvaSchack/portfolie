@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="om-mig.css" />
     <link rel="stylesheet" href="projekt.css" />
-    <script src="menu.js"></script>
+    <link rel="stylesheet" href="feardigheder.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (1)/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io (1)/site.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="gradient">
     <header>
-      <div class="logo">
-        <a href="/">
-          <img src="#" alt="Logo" />
-        </a>
+      <div id="logo">
+        <a href="index.html"> eva schack </a>
       </div>
       <nav>
         <ul class="menu">
           <li><a href="#projects">MINE PROJEKTER</a></li>
           <li><a href="#about-me">OM MIG</a></li>
-          <li><a href="index.html">MINE FÆRDIGHEDER</a></li>
+          <!-- <li><a href="#skills">MINE FÆRDIGHEDER</a></li> -->
         </ul>
         <button class="burger">
           <span class="line"></span>
@@ -35,21 +42,54 @@
         </button>
       </nav>
     </header>
+
     <main class="hero">
-      <h1>PORTFOLIO</h1>
+      <h1>PORTFOLI<span class="orangeE">E</span></h1>
     </main>
 
     <section id="projects">
       <div>
         <h2>MINE PROJEKTER</h2>
-        <div class="picture-projects1">
-          <a href="#"><img src="billeder.projekter/mobilesite.webp" alt="mobilesite" /></a>
-          <a href="#"><img src="billeder.projekter/emnesite-is.webp" alt="emnesite-is" /></a>
+        <div class="container">
+          <div class="card">
+            <a href="web.html"
+              ><img src="billeder.projekter/mobilesite.webp" alt="mobilesite" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE WEB</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="ux-ui.html"
+              ><img src="billeder.projekter/emnesite-is.webp" alt="emnesite-is" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE UX/UI</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <div class="picture-projects2">
-          <a href="#"><img src="billeder.projekter/emergency.webp" alt="emergency" /></a>
-          <a href="#"><img src="billeder.projekter/replay.webp" alt="replay" /></a>
+        <div class="container">
+          <div class="card">
+            <a href="brugergreanse.html"
+              ><img src="billeder.projekter/emergency.webp" alt="emergency" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE BRUGERGRÆNSEFLADEUDVIKLING</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="indhold.html"
+              ><img src="billeder.projekter/replay.webp" alt="replay" />
+              <div class="card-text-container">
+                <h3>GRUNDLÆGGENDE INDHOLD</h3>
+                <span>læs mere</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -59,9 +99,9 @@
         <h2>OM MIG</h2>
         <div class="text-about-me">
           <p>
-            Hej, mit navn er Eva Roed Schack, og jeg er 22 år gammel. Jeg er nyligt startet på min uddannelse som multimediedesigner på Erhvervsakademiet København (EK), hvor jeg netop har afsluttet 1. semester. Jeg brænder for at arbejde med tegning
-            og illustrationer, derudover har jeg en voksende interesse for at skabe digitale løsninger, der både er brugervenlige og visuelt tiltalende. Jeg er vild med at tilføje et kreativt touch til hjemmesider fx gennem farver, illustrationer
-            eller små visuelle detaljer.
+            Hej, mit navn er Eva Roed Schack, og jeg er 22 år gammel. Jeg er for nyligt startet på min uddannelse som multimediedesigner på Erhvervsakademiet København (EK), hvor jeg netop har afsluttet 1. semester. Jeg kan godt lide at arbejde med
+            illustrationer og tegne, derudover har jeg en voksende interesse for at skabe digitale løsninger, der både er brugervenlige og visuelt tiltalende. Jeg er vild med at tilføje et kreativt touch til hjemmesider fx gennem farver,
+            illustrationer eller små visuelle detaljer.
             <br />
             <br />
             Multimediedesigneruddannelsen giver mig et solidt fundament inden for både praktisk og teoretisk digitalt design, herunder webudvikling, brugeroplevelse (UX) og visuel kommunikation. Uddannelsen er bred og giver indsigt i mange aspekter
@@ -70,9 +110,37 @@
             <br />
             Jeg er opvokset i den lille by Tølløse, men for fire år siden flyttede jeg til København, hvor jeg planlægger at slå mig ned i mange år fremover. Tak for at vise interesse og kig gerne rundt på siden!
           </p>
-          <img class="eva" src="billeder.projekter/eva.webp" alt="mig" />
+          <img class="image-about-me" src="billeder.projekter/eva.webp" alt="mig" />
         </div>
       </div>
     </section>
+
+    <!-- <section id="skills">
+      <div>
+        <h2>MINE FÆRDIGHEDER</h2>
+      </div>
+    </section> -->
+
+    <script src="menu.js"></script>
+
+    <footer>
+      <section class="footer">
+        <div id="logo">
+          <a href="index.html"> eva schack </a>
+          <h2>PORTFOLI<span class="pinkE">E</span></h2>
+        </div>
+        <div class="contact-footer">
+          <p><strong>KONTAKT</strong></p>
+          <p><a href="mailto:hejtileva@gmail.com">hejtileva@gmail.com</a></p>
+          <p><a href="tel:+45 30 96 49 96">+45 30 96 49 96</a></p>
+          <p>København, Danmark</p>
+        </div>
+        <div class="contact-footer">
+          <p><strong>SOCIALE MEDIER</strong></p>
+          <p><a href="https://www.instagram.com/eva.schack/">Instagram</a></p>
+          <p><a href="https://www.facebook.com/evaroedschack">Facebook</a></p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

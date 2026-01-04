@@ -5,6 +5,10 @@
   margin-bottom: 2rem;
 }
 
+.content-h2 {
+  margin-top: 0;
+}
+
 /* button */
 .button {
   background-color: var(--yellow);

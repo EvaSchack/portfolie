@@ -11,7 +11,7 @@ header {
 
 #logo a {
   text-decoration: none;
-  font-family: "Playfair Display SC", serif;
+  font-family: "bodoni moda, serif";
   font-size: 20px;
   font-weight: 500;
   color: var(--dark);
@@ -95,9 +95,9 @@ header {
 
   nav.active .menu {
     display: block;
-    background-color: #ffffff;
+    background-color: var(--pink);
     position: absolute;
-    top: 94px;
+    top: 60px;
     left: 0;
     width: 100%;
     z-index: 1;

@@ -24,3 +24,16 @@
   object-fit: cover;
   align-content: center;
 }
+
+/* Mobil-layout for skærme 800px og mindre */
+@media screen and (max-width: 800px) {
+  .text-about-me {
+    grid-template-columns: 1fr; /* én kolonne: tekst over billede */
+    text-align: center; /* valgfrit: centrer teksten */
+  }
+
+  .image-about-me {
+    margin-top: 20px; /* afstand mellem tekst og billede */
+    justify-self: center; /* centrer billedet i grid-cellen */
+  }
+}

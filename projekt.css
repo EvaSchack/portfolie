@@ -69,6 +69,7 @@ h2.projects {
   letter-spacing: 0.02em;
 }
 
+/* media cards */
 @media (max-width: 800px) {
   .container {
     display: grid;
@@ -81,5 +82,19 @@ h2.projects {
   }
   .card-text-container span {
     order: 3;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .cards {
+    order: 2;
+    margin: 0 20px;
   }
 }

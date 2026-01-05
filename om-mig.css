@@ -23,11 +23,13 @@
   height: 500px;
   object-fit: cover;
   align-content: center;
+  margin-bottom: 2rem;
 }
 
 /* Mobil-layout for skærme 800px og mindre */
 @media screen and (max-width: 800px) {
   .text-about-me {
+    display: grid;
     grid-template-columns: 1fr; /* én kolonne: tekst over billede */
     text-align: center; /* valgfrit: centrer teksten */
   }

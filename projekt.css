@@ -76,4 +76,10 @@ h2.projects {
     gap: 20px;
     margin: 20px 0;
   }
+  .card-text-container h3 {
+    order: 2;
+  }
+  .card-text-container span {
+    order: 3;
+  }
 }

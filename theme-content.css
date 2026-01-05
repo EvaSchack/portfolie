@@ -37,3 +37,17 @@
 .button:active {
   transform: scale(0.96);
 }
+
+/* Mobile layout - skærm <= 800px */
+@media (max-width: 800px) {
+  .theme-content {
+    grid-template-columns: 1fr; /* én kolonne */
+    grid-template-rows: auto auto; /* billede øverst, tekst under */
+  }
+
+  .theme-content img {
+    order: -1; /* flytter billedet øverst */
+    width: 100%; /* fyld hele kolonnen */
+    height: auto; /* bevar proportioner */
+  }
+}

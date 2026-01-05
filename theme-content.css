@@ -37,3 +37,39 @@
 .button:active {
   transform: scale(0.96);
 }
+
+/* Mobile layout - skærm <= 800px */
+@media (max-width: 800px) {
+  .theme-content {
+    grid-template-columns: 1fr; /* én kolonne */
+    grid-template-rows: auto auto; /* billede øverst, tekst under */
+  }
+
+  .theme-content img {
+    order: -1; /* flytter billedet øverst */
+    width: 100%; /* fyld hele kolonnen */
+    height: auto; /* bevar proportioner */
+  }
+}
+
+.back-button {
+  color: #6e1e3b95;
+
+  cursor: pointer;
+  min-height: 30px;
+  border-radius: 5px;
+  padding: 8px 28px;
+  border: 1px solid rgba(110, 30, 59, 0.52);
+  text-decoration: none;
+  display: inline-block;
+
+  margin-bottom: 1rem;
+}
+
+.back-button:hover {
+  color: var(--dark);
+  border: 1px solid var(--dark);
+}
+.back-button:active {
+  transform: scale(0.96);
+}

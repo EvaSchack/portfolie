@@ -196,4 +196,8 @@ a {
     text-align: center;
     line-height: 1.1;
   }
+
+  h2 {
+    font-size: 30px;
+  }
 }

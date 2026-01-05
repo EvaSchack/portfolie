@@ -20,7 +20,7 @@ header {
 }
 
 #logo a:hover {
-  color: #b56280;
+  color: var(--orange);
 }
 .menu {
   display: flex;

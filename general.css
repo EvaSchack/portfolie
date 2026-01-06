@@ -57,7 +57,7 @@ h2 {
   font-size: 2.5rem;
   color: var(--dark);
   margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 h3 {
@@ -86,7 +86,7 @@ p {
 }
 
 section {
-  padding: 2rem;
+  padding: 2rem 4rem 4rem 4rem;
 }
 
 a {
@@ -118,11 +118,12 @@ a {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
   background-color: var(--orange);
-  padding: 2rem;
-  position: sticky;
+  padding: 4rem 2rem;
   min-height: 25vh;
 }
+
 .footer h2 {
   color: var(--dark);
   font-size: 50px;
@@ -172,9 +173,12 @@ a {
   margin-top: 25px;
 }
 
-/* media footer*/
+/* media */
 
 @media (max-width: 800px) {
+  section {
+    padding: 1rem 2rem 2rem 2rem;
+  }
   .footer {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -202,10 +206,7 @@ a {
     width: 80px;
     justify-self: center;
   }
-}
 
-/* media hero */
-@media (max-width: 800px) {
   .hero {
     min-height: 50vh; /* Hero fylder 50 % af skærmens højde */
     display: flex;

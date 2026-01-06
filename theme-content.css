@@ -54,7 +54,8 @@
 }
 
 .back-button:hover {
-  color: var(--dark);
+  background-color: var(--dark);
+  color: var(--yellow);
   border: 1px solid var(--dark);
 }
 .back-button:active {

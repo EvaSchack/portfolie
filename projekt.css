@@ -1,12 +1,12 @@
 /* Projekt side */
 #projects {
-  background-color: var(--pink);
+  background-color: #f5e3ea;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 4rem;
   object-fit: cover; /* bevarer proportioner og fylder cellen */
   margin-bottom: 2rem;
 }
@@ -26,13 +26,10 @@ h2.projects {
   border-radius: 10px;
   background-color: none;
   transition: transform 0.2s ease;
-  padding: 2rem;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  /* background-color: #f0bbd1; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .card img {
@@ -42,8 +39,6 @@ h2.projects {
 
   border-radius: 5px;
   overflow: hidden;
-
-  /* mix-blend-mode: multiply; */
 }
 
 .card h3 {
@@ -65,11 +60,11 @@ h2.projects {
   font-family: "bodoni moda, serif";
   color: var(--dark);
   font-weight: 500;
-  /* font-style: italic; */
+
   letter-spacing: 0.02em;
 }
 
-/* media cards */
+/* media  */
 @media (max-width: 800px) {
   .container {
     display: grid;
@@ -83,9 +78,6 @@ h2.projects {
   .card-text-container span {
     order: 3;
   }
-}
-
-@media (max-width: 800px) {
   .cards-container {
     display: grid;
     grid-template-columns: 1fr;

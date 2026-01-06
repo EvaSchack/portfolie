@@ -5,13 +5,10 @@
   margin-bottom: 2rem;
 }
 
-.content-h2 {
-  margin-top: 0;
-}
-
 /* button */
 .button {
-  background-color: var(--yellow);
+  border: 1px solid rgba(110, 30, 59, 0.52);
+  border-radius: 5px;
   color: var(--dark);
 
   font-size: 16px;
@@ -20,10 +17,10 @@
   letter-spacing: 0.02em;
 
   line-height: normal;
-  border-radius: 5px;
+
   cursor: pointer;
   min-height: 30px;
-  padding: 14px 54px;
+  padding: 10px 54px;
   white-space: nowrap; /* Prevent text from wrapping */
   text-decoration: none;
   display: inline-block;
@@ -32,7 +29,7 @@
 
 .button:hover {
   background-color: var(--dark);
-  color: var(--yellow);
+  color: #f5e4eb;
 }
 .button:active {
   transform: scale(0.96);
@@ -45,7 +42,7 @@
   cursor: pointer;
   min-height: 30px;
   border-radius: 5px;
-  padding: 8px 28px;
+  padding: 10px 28px;
   border: 1px solid rgba(110, 30, 59, 0.52);
   text-decoration: none;
   display: inline-block;
@@ -55,8 +52,7 @@
 
 .back-button:hover {
   background-color: var(--dark);
-  color: var(--yellow);
-  border: 1px solid var(--dark);
+  color: #f5e4eb;
 }
 .back-button:active {
   transform: scale(0.96);
@@ -65,32 +61,24 @@
 .content-h2 {
   font-size: 40px;
 }
-.content-h2 span {
-  display: inline; /* desktop */
-}
 
-/* Mobile layout - skærm <= 800px */
+/* media */
 @media (max-width: 800px) {
   .theme-content {
-    grid-template-columns: 1fr; /* én kolonne */
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto; /* billede øverst, tekst under */
   }
 
   .theme-content img {
     order: -1; /* flytter billedet øverst */
-    width: 100%; /* fyld hele kolonnen */
-    height: auto; /* bevar proportioner */
-  }
-}
-
-@media (max-width: 800px) {
-  .content-h2 span {
-    display: block; /* bryder linjen på mobil */
+    width: 100%;
+    height: auto;
   }
   .content-h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
-  .content-h2 span {
-    display: inline; /* desktop */
+
+  h3 {
+    font-size: 1.3rem;
   }
 }

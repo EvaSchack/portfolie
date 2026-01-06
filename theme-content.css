@@ -37,7 +37,7 @@
 
 /* tilbage knap på tema siderne */
 .back-button {
-  color: #6e1e3b95;
+  color: var(--dark);
 
   cursor: pointer;
   min-height: 30px;

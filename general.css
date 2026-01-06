@@ -61,8 +61,8 @@ h2 {
 }
 
 h3 {
-  font-family: bodoni moda, serif;
-  font-weight: 600;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
   font-size: 1.5rem;
   color: var(--dark);
   margin-bottom: 1rem;
@@ -117,7 +117,7 @@ a {
 /*footer*/
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: var(--orange);
   padding: 2rem;
   position: sticky;
@@ -129,7 +129,7 @@ a {
   margin-bottom: 1rem;
   margin-top: 0;
   margin-left: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .footer .logo img {
@@ -153,6 +153,25 @@ a {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+
+.footer-blomst {
+  width: 100px;
+  height: auto;
+  justify-self: end;
+}
+
+.section-title {
+  display: flex;
+  align-items: center; /* lodret justering */
+  gap: 12px; /* afstand mellem tekst og svg */
+}
+
+.project-flower {
+  width: 40px; /* justér størrelse */
+  height: auto;
+  margin-top: 25px;
+}
+
 /* media footer*/
 
 @media (max-width: 800px) {
@@ -177,6 +196,11 @@ a {
 
   .contact-footer:nth-of-type(2) {
     grid-area: social;
+  }
+
+  .footer-blomst {
+    width: 80px;
+    justify-self: center;
   }
 }
 

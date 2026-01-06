@@ -38,20 +38,7 @@
   transform: scale(0.96);
 }
 
-/* Mobile layout - skærm <= 800px */
-@media (max-width: 800px) {
-  .theme-content {
-    grid-template-columns: 1fr; /* én kolonne */
-    grid-template-rows: auto auto; /* billede øverst, tekst under */
-  }
-
-  .theme-content img {
-    order: -1; /* flytter billedet øverst */
-    width: 100%; /* fyld hele kolonnen */
-    height: auto; /* bevar proportioner */
-  }
-}
-
+/* tilbage knap på tema siderne */
 .back-button {
   color: #6e1e3b95;
 
@@ -67,7 +54,8 @@
 }
 
 .back-button:hover {
-  color: var(--dark);
+  background-color: var(--dark);
+  color: var(--yellow);
   border: 1px solid var(--dark);
 }
 .back-button:active {
@@ -79,6 +67,20 @@
 }
 .content-h2 span {
   display: inline; /* desktop */
+}
+
+/* Mobile layout - skærm <= 800px */
+@media (max-width: 800px) {
+  .theme-content {
+    grid-template-columns: 1fr; /* én kolonne */
+    grid-template-rows: auto auto; /* billede øverst, tekst under */
+  }
+
+  .theme-content img {
+    order: -1; /* flytter billedet øverst */
+    width: 100%; /* fyld hele kolonnen */
+    height: auto; /* bevar proportioner */
+  }
 }
 
 @media (max-width: 800px) {
